@@ -40,7 +40,7 @@ Campo 2 = N)
 La media, error estándar, y "peor" o más grande (media de los tres valores más grandes) de estas características se calcularon para cada imagen, resultando en 30 características. Por ejemplo, el campo 4 es Mean Radius, campo 14 es el radio SE, el campo 24 es e peor Radio.
 
 
-### Respecto al error de aproximación:
+Respecto al error de aproximación:
 - Los valores de características 4 - 33 son recodificados con cuatro dígitos significativos.
 
 ### Definiciones faltantes
