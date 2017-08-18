@@ -1,9 +1,9 @@
 # Laboratorio 1: Taller Minería de datos avanzada
-==================================================
+
 ## Integrantes
 - Ignacio Ibáñez Aliaga
 - Joaquín Villagra Pacheco
-==================================================
+
 ## Descripción de la experiencia
 ### Objetivos:
 - Definir el problema a resolver mediante el conjunto de datos seleccionado
