@@ -37,9 +37,22 @@ Campo 2 = N)
 	- simetría
 	- dimensión fractal ("aproximación de la costa" - 1)
 
+La media, error estándar, y "peor" o más grande (media de los tres valores más grandes) de estas características se calcularon para cada imagen, resultando en 30 características. Por ejemplo, el campo 4 es Mean Radius, campo 14 es el radio SE, el campo 24 es e peor Radio.
+
+#### Respecto al error de aproximación
+Los valores de características 4 - 33 son recodificados con cuatro dígitos significativos.
+
+### Definiciones faltantes
+34) El tamaño del tumor - diámetro del tumor extirpado en centímetros.
+35) El estado de los ganglios linfáticos - número de ganglios linfáticos axilares positivos observado en el momento de la cirugía.
+
+### Valores de atributos que faltan: 
+	Estado de los ganglios linfáticos (V35) no se encuentra en 4 casos.
+
+
 ### Información relevante del contexto del dataset
 Cada registro representa datos de seguimiento de un caso de cáncer de mama. 
-Estos pacientes han sido vistos consecutivamnte por el Dr. Wolberg desde 1984, e incluyen sólo aquellos casos que presentan
+Estos pacientes han sido vistos consecutivamente por el Dr. Wolberg desde 1984, e incluyen sólo aquellos casos que presentan
 Cáncer de mama y ninguna evidencia de metástasis a distancia al momento del diagnóstico.
 
 Las primeras 30 características se calculan a partir de una imagen digitalizada de una
