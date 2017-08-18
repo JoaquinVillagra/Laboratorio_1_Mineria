@@ -41,8 +41,7 @@ La media, error estándar, y "peor" o más grande (media de los tres valores má
 
 
 ### Respecto al error de aproximación:
-
-Los valores de características 4 - 33 son recodificados con cuatro dígitos significativos.
+- Los valores de características 4 - 33 son recodificados con cuatro dígitos significativos.
 
 ### Definiciones faltantes
 34) El tamaño del tumor - diámetro del tumor extirpado en centímetros.
