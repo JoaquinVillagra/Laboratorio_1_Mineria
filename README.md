@@ -4,7 +4,7 @@
 	- Joaquín Villagra Pacheco
 
 ## Descripción de la experiencia
-###Objetivos:
+### Objetivos:
 - Definir el problema a resolver mediante el conjunto de datos seleccionado
 - Estudiar e interpretar los datos correspondientes a cada base de datos.
 o Para ello es necesario explicar de forma detallada el significado de clases,
