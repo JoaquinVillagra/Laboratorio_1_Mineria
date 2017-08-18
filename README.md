@@ -14,6 +14,11 @@ problema planteado.
 - Brindar una solución mediante el uso de métodos de agrupamientos basados en modelos
 (Mcluster)
 
+# Características del DataSet
+
+- Número de instancias: 198
+
+- Número de atributos: 34 (ID, resultado, 32 características de entrada real)
 
 ## Variables
 - Número de identificación
