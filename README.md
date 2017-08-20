@@ -82,6 +82,50 @@ Optimization Methods and Software 1, 1992, 23 - 34].
 El método de aproximación de superficie de recurrencia (RSA) es un método lineal
 Modelo de programación que predice el tiempo de recurrencia utilizando ambos tipos de cancer Recurrentes y no recurrentes. 
 
+## Factores influyen en la ramificacion o proliferacion de tumores en otras zonas
+
+### Factores de Riesgo
+
+- Edad: >45a
+	Al igual qué todos los Ca por acumulacion de factores productores de ca, daño genético y la menor eficacia de mecanismos de reparación celular. La incidencia de cáncer de mama a los 80-85 años es 15x más alta que a los 30-35 años. En estudios de prevención se considera alto riesgo a partir de los 60 años.
+
+- Ant. familiar de Ca mama
+	El Ca de mama puede heredarse de manera autosómica dominante hasta tres generaciones, heredando en si el daño genético presente en los genes supresores o en el HER2-Neu. Si un familiar femenino de primer grado (madre-hermana-hija) ha tenido ca el riesgo es 2x, y si dos familiares de este mismo grado han tenido ca el riesgo aumenta a 5x.
+
+- Historia de Ca mama
+	El riesgo de padecer nuevamente un ca de mama es de 3 a 4x el otro sector de la mama o, en la otra mama. En mujeres mayores de 40 años con antecedente personal de cáncer de mama, el riesgo relativo de un nuevo cáncer fluctúa entre 2-5x Si la mujer es menor de 40 años el riesgo relativo se eleva a 8x 
+
+- Mutaciones genes supresores BRCA 1 Y 2
+	La función de estos genes es reparar el daño celular y mantener un crecimiento controlado de células mamarias, cuando estos genes presentan mutaciones no funcionan como debieran.
+- Raza
+	Las mujeres de raza blanca son más propensas a desarrollar ca de mama qué las de raza negra, pero las mujeres de raza negra tienen mayor riesgo de desarrollar el cáncer de manera más agresiva.
+
+- Obesidad
+	En las mujeres obesas hay mayor concentración de estrógenos, después de la    menopausia el tejido graso se convierte en la fuente más importante de estrógenos endógenos (estrona), factores de crecimiento y de señalización. 
+
+- Mamas densas
+	Las mamas densas contienen más tejido glandular qué adiposo lo qué dificulta el resultado de la mamografía, ocultando posibles tumoraciones.
+- Menarquia precoz / Menopausia tardía
+	Estas dos juntas mantienen mayor porcentaje de ciclos a lo largo de la vida de la mujer, exponiendola más tiempo a exposición de hormonas endógenas. Por la misma razón, la ooforectomía bilateral antes de los 40 años disminuye el riesgo en aproximadamente 50%
+
+- Primípara >35a
+	Las células mamarias son inmaduras y activas frente a estrógenos durante la etapa joven de la mujer, el primer embarazo a término hace qué las células finalizen su maduración y crezcan de manera más regular.
+
+- Tiempo de lactancia exclusiva
+	La lactancia puede disminuir el riesgo de cáncer sobre todo cuando se amamanta >1 año, el aumento de prolactina disminuye el nivel estrogénico y la mujer se ve sometida a menos ciclos hormonales.
+
+- Alcohol OH
+	Aumenta el riesgo sobre todo en los ca RE(+) ya qué elevan los niveles estrogénicos, el acetaldehído, metabolito del etanol, esa una sustancia tóxica qué daña el ADN celular y las proteínas. el porcentaje es de 7% por cada 10 grs de OH diario. 
+
+- Tabaquismo
+	El humo del cigarro contiene sustancias tóxicas, irritantes y mutagenas con un efecto cumulativo y progresivo, manteniendo los tejidos a los qué llega inflamados permanentemente y disminuyendo la posibilidad de recuperarse, manteniendo un daño crónico deteriorando al sistema inmune. Por otra parte daña el ADN celular, y sumando qué el sistema tiene menos efectividad de reparación aumenta la incidencia de ca.
+
+- THR
+	Las mujeres qué actualmente usan terapia combinada tiene mayor riesgo los primeros 2-3 años del uso, en cambio las de solo estrógeno tienen riesgo cuando la usan >10 años.  
+
+- Exposición de radioterapia en tórax antes de los 30 años
+    Por daño celular local.
+	Tumores benignos: hiperplasia atípica, neoplasia lobulillar in situ, atipia plana
 
 ### ¿Qué es un Ganglio linfático?: https://es.wikipedia.org/wiki/Ganglio_linf%C3%A1tico
 
