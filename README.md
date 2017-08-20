@@ -4,6 +4,9 @@
 - Ignacio Ibáñez Aliaga
 - Joaquín Villagra Pacheco
 
+## Herramienta a utilizar R
+- Acceso a Tutorial: http://faculty.lagcc.cuny.edu/tnagano/research/R/
+
 ## Descripción de la experiencia
 ### Objetivos:
 - Definir el problema a resolver mediante el conjunto de datos seleccionado
