@@ -79,6 +79,8 @@ El método de aproximación de superficie de recurrencia (RSA) es un método lin
 Modelo de programación que predice el tiempo de recurrencia utilizando ambos tipos de cancer Recurrentes y no recurrentes. 
 
 
+### ¿Qué es un Ganglio linfático?: https://es.wikipedia.org/wiki/Ganglio_linf%C3%A1tico
+
 ### Cirugía de ganglios linfáticos para el cáncer de seno
 
 Si el cáncer de seno se propaga, a menudo suele hacerlo hacia los ganglios linfáticos cercanos. Saber si el cáncer se ha propagado a los ganglios linfáticos es útil pues esto ayuda a los médicos a determinar el tratamiento más adecuado para tratar la enfermedad.
