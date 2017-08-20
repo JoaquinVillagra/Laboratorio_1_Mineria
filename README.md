@@ -78,7 +78,8 @@ Optimization Methods and Software 1, 1992, 23 - 34].
 El método de aproximación de superficie de recurrencia (RSA) es un método lineal
 Modelo de programación que predice el tiempo de recurrencia utilizando ambos tipos de cancer Recurrentes y no recurrentes. 
 
-### Cirugía de ganglios linfáticos para el cáncer de seno
+
+### Cirugía de ganglios linfáticos para el cáncer de seno
 
 Si el cáncer de seno se propaga, a menudo suele hacerlo hacia los ganglios linfáticos cercanos. Saber si el cáncer se ha propagado a los ganglios linfáticos es útil pues esto ayuda a los médicos a determinar el tratamiento más adecuado para tratar la enfermedad.
 Si usted ha sido diagnosticada con cáncer de seno, es importante saber hasta qué punto el cáncer se ha propagado. Para ayudar a averiguar si el cáncer se ha propagado fuera del seno, se extrae uno o más de los ganglios linfáticos ubicados debajo del brazo (ganglios linfáticos axilares) para examinarlos al microscopio. Conocer si el cáncer se ha propagado es una parte importante de la clasificación por etapas del cáncer. Además, cuando los ganglios linfáticos contienen células cancerosas, existe una mayor probabilidad de que las células cancerosas se hayan propagado a otras partes del cuerpo. Las decisiones sobre el tratamiento dependerán de si se encontró cáncer en los ganglios linfáticos.
