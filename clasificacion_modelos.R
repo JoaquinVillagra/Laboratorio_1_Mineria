@@ -1,6 +1,6 @@
 library("mclust") #cargar biblioteca
 
-data = read.table("wpbc.data", sep = ",")
+data = read.table("/Volumes/HDD/Google Drive/wpbc.data",quote="\"", comment.char="|", na.strings="?", sep = ",")
 
 colnames(data) = c("id", "c", "t ","r1", "t1", "p1", "a1", "su1",
                    "com1", "con1", "pc1", "si1", "df1",
@@ -19,8 +19,7 @@ colnames(data) = c("id", "c", "t ","r1", "t1", "p1", "a1", "su1",
 #                   "tam_tumor", "est_ganglios")
 
 #se eliminan registros con error
-error = data$eg == '?'
-data = data[!error,]
+data <- na.omit(data)
 
 #se modifica la ultima variable a numerica
 data$eg = as.numeric(data$eg)
@@ -31,12 +30,13 @@ data$eg = as.numeric(data$eg)
 #BIC diff    0.000    0.000    0.000
 
 class=data$c
-BIC=mclustBIC(data[,4:35], prior = priorControl(functionName="defaultPrior", shrinkage=0.1))
+BIC=mclustBIC(data[,4:13], prior = priorControl(functionName="defaultPrior", shrinkage=0.1))
+
 
 #graficar BIC
 plot(BIC)
 
-#>>>summary(BIC)
+summary(BIC)
 #Best BIC values:
 #            EEE,1    EEV,1    VEV,1
 #BIC      7406.545 7406.545 7406.545
@@ -45,9 +45,15 @@ plot(BIC)
 #            EEE,2    EEV,2    VEV,2
 #BIC       7266.63  6103.41  6373.11
 
+##### Nueva metrica
+#Best BIC values:
+#           VEV,2      EEV,2      VVV,2
+#BIC      2050.101 2030.95272 1993.96287
+#BIC diff    0.000  -19.14863  -56.13848
+
 #son utilizados 2 grupos dado que en caso contrario no tendria sentido la clasificación
-mod_eee=Mclust(data[,4:35], G = 2, modelNames = "EEE")
-#>>>summary(mod_eee)
+mod_eee=Mclust(data[,4:13], G = 2, modelNames = "EEE")
+summary(mod_eee)
 #Clustering table:
 #  1   2 
 #127  67 
@@ -57,8 +63,8 @@ table(class,mod_eee$classification)
 #     R  27  19
 # error 75 casos
 
-mod_eev=Mclust(data[,4:35], G = 2, modelNames = "EEV")
-#>>>summary(mod_eev)
+mod_eev=Mclust(data[,4:13], G = 2, modelNames = "EEV")
+summary(mod_eev)
 #Clustering table:
 #  1   2 
 #118  76 
@@ -67,11 +73,16 @@ table(class,mod_eev$classification)
 #     N 96 52
 #     R 22 24
 # error 74 casos
-mod_vev=Mclust(data[,4:35], G = 2, modelNames = "VEV")
-#>>>summary(mod_vev)
+mod_vev=Mclust(data[,4:13], G = 2, modelNames = "VEV")
+summary(mod_vev)
 #Clustering table:
 # 1   2 
-#118  76 
+#118  76
+
+###Nueva tabla
+#Clustering table:
+#  1   2 
+#  80 114 
 table(class,mod_vev$classification)
 # class  1  2
 #     N 96 52
