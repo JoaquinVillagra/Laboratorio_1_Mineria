@@ -165,3 +165,58 @@ plot3d(pc$scores[,1:3], col=data_1[,2], main="Actual clasificación")
 
 #graficar agrupamiento por modelos
 plot3d(pc$scores[,1:3], col=mod$classification, main="Clasificación por modelos VEV")
+
+
+########################################################################################
+#sin limpieza de datos
+
+data = read.table("wpbc.data", sep = ",")
+
+colnames(data) = c("id", "c", "t","r1", "t1", "p1", "a1", "su1",
+                   "com1", "con1", "pc1", "si1", "df1",
+                   "r2", "t2", "p2", "a2", "su2",
+                   "com2", "con2", "pc2", "si2", "df2",
+                   "r3", "t3", "p3", "a3", "su3",
+                   "com3", "con3", "pc3", "si3", "df3",
+                   "tt", "eg")
+
+
+#se eliminan registros con error
+error = data$eg == '?'
+data = data[!error,]
+
+#se modifica la ultima variable a numerica
+data$eg = as.numeric(data$eg)
+
+#con variables relevantes ya claras es posible aplicar el metodo de agrupamiento 
+#segun modelos
+BIC=mclustBIC(data[,4:35], prior = priorControl(functionName="defaultPrior", shrinkage=0.1))
+mod=Mclust(data[,4:35], G = 2, x=BIC)
+plot(BIC)
+# Best BIC values:
+#             EEE,2       EEV,2      VEV,2
+# BIC        7266.632  6103.4135  6373.1050
+tabla = table(data$c,mod$classification)
+print(tabla)
+#     1   2
+# N 100  48
+# R  26  20
+
+
+#se realiza la comparativa con el algoritmo de las k-means
+data_kmeans <- kmeans(data[,4:35], 2, nstart = 20)
+tabla = table(data$c,data_kmeans$cluster)
+print(tabla)
+#     1   2
+# N 100  48
+# R  23  23
+
+pc = princomp(data_1[,4:34], cor=TRUE, scores=TRUE)
+data_kmeans$cluster = as.factor(data_kmeans$cluster)
+plot3d(pc$scores[,1:3], col=data_kmeans$cluster, main="K-Means")
+
+#graficar especies actual
+plot3d(pc$scores[,1:3], col=data_1[,2], main="Actual clasificación")
+
+#graficar agrupamiento por modelos
+plot3d(pc$scores[,1:3], col=mod$classification, main="Clasificación por modelos EEE")
