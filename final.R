@@ -1,4 +1,5 @@
 library("rgl")
+library("mclust") #cargar biblioteca
 
 data = read.table("wpbc.data", sep = ",")
 
@@ -146,10 +147,9 @@ print(tabla)
 # 2 17 30
 
 
-
 #se realiza la comparativa con el algoritmo de las k-means
 data_kmeans <- kmeans(data_1[,c('r1','p1','a1','r2','p2','a2','r3','p3','a3','tt', 'su1','t2','df1','pc1')], 2, nstart = 20)
-tabla = table(scale_datos$c,data_kmeans$cluster)
+tabla = table(data_1$c,data_kmeans$cluster)
 print(tabla)
 #    1  2
 # 1 77 34
@@ -157,7 +157,7 @@ print(tabla)
 
 #graficar k-means
 pc = princomp(data_1[,4:34], cor=TRUE, scores=TRUE)
-data_kmeans_3d$cluster = as.factor(data_kmeans$cluster)
+data_kmeans$cluster = as.factor(data_kmeans$cluster)
 plot3d(pc$scores[,1:3], col=data_kmeans$cluster, main="K-Means")
 
 #graficar especies actual
