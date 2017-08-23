@@ -84,10 +84,14 @@ Modelo de programación que predice el tiempo de recurrencia utilizando ambos ti
 
 ## Factores influyen en la ramificacion o proliferacion de tumores en otras zonas
 Una recurrencia o el cáncer de mama recurrente es un cáncer de mama que vuelve a aparecer después de un determinado período en el que ya no fue detectado. El cáncer puede volver en la misma mama del diagnóstico original, en la otra mama o en la pared torácica.
+
 Una metástasis o un cáncer de mama metastásico es un cáncer de mama que se ha propagado a otra parte del cuerpo. Las células cancerosas pueden desprenderse del tumor original de la mama y alojarse en otras partes del cuerpo usando el torrente sanguíneo o el sistema linfático, una gran red de ganglios y vasos que eliminan bacterias, virus y desechos celulares. (Consulta la página de Breastcancer.org sobre los ganglios linfáticos para acceder a una explicación detallada del sistema linfático). 
+
 El tumor metastásico que se encuentra en otra parte del cuerpo está formado por células del cáncer de mama. Si el cáncer de mama se propaga a un hueso, por ejemplo, el tumor metastásico del hueso estará compuesto por células de cáncer de mama, no de células óseas. 
 El cáncer de mama puede ser metastásico desde el diagnóstico. Eso significa que el cáncer de mama no se detectó antes de que se propagara a otra parte del cuerpo. 
+
 Un cáncer de mama metastásico puede ser un cáncer de mama recurrente si el cáncer original ha vuelto y se ha propagado. Pero la mayoría de los médicos usan el término “localmente recurrente” para describir el cáncer de mama que ha vuelto en la mama del diagnóstico original o en la misma pared torácica y “metastásico” para describir el cáncer de mama que se ha propagado o que ha vuelto en otra parte del cuerpo. 
+
 Se considera que tanto el cáncer recurrente como el cáncer metastásico son tipos de cáncer de mama en estadio avanzado. 
 El cáncer de mama puede volver en la zona de las mamas o en otra parte del cuerpo meses o incluso años después del diagnóstico y el tratamiento originales. Casi el 30 % de las mujeres diagnosticadas con cáncer de mama en etapa temprana desarrollarán un cáncer metastásico. En los países en desarrollo, la mayoría de las mujeres diagnosticadas con cáncer de mama reciben el diagnóstico cuando la enfermedad está en estado avanzado o cuando ya es metastásica. 
 
